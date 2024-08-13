@@ -72,12 +72,12 @@ const Moviedetails = () => {
 
   return (
     <div className='h-screen'>
-      <div className='flex flex-col xl:flex-row md:flex-row lg:flex-row sm:flex-col justify-start bg-gray-800 h-[150%] xl:h-1/2 lg:h-1/2 md:h-1/2 w-full max-w-[1550px] mx-auto min-h-[500px]'>
+      <div className='flex flex-col xl:flex-row md:flex-row lg:flex-row sm:flex-col justify-start bg-gray-800 h-[110%] xl:h-1/2 lg:h-1/2 md:h-[55%]  w-full max-w-[1550px] mx-auto min-h-[400px]'>
         <div>
           <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} className='w-[215px] h-[315px] m-[40px]'/>
         </div>
         <span className='bg-yellow-400 h-1 w-[94%] mx-auto md:h-[94%] md:w-1 md:mx-0 md:mt-auto md:mb-auto'></span>
-        <div className='mt-[40px] text-white ml-[10px] md:max-w-[55%] lg:max-w-[70%] xl:ml-[60px]'>
+        <div className='mt-[40px] text-white ml-[13px] md:max-w-[55%] lg:max-w-[70%] xl:ml-[60px] mr-5'>
           <h2 className='text-3xl'>{movie.original_title} <p className='inline opacity-60'>({movie.release_date.substring(0,4)})</p></h2>
             <div className="mb-4 ml-1">
             {movie.genres && movie.genres.map((genre) => (
