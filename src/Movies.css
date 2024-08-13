@@ -1,0 +1,119 @@
+.movies-container {
+    position: relative;
+    padding: 20px;
+    overflow: hidden; 
+  }
+  
+  .movies-list {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    overflow: hidden;
+    white-space: nowrap; /* Prevent wrapping */
+     /* To make space for the scroll buttons */
+  }
+  
+  .movie-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 150px;
+  }
+  
+
+  .movie-title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    height: 60px;
+    width: 140px;
+    white-space: normal;
+    overflow-wrap:break-word ;
+    
+  }
+  .cont{
+    overflow-wrap: break-word;
+    width: 140px;
+  }
+  
+  .no-image {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ccc;
+    border-radius: 8px;
+  }
+  
+  .scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+
+  
+  .movies-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .movies-list {
+    display: flex;
+    overflow-x: auto; 
+    scroll-behavior: smooth;
+    width: 100%;
+    padding: 20px 0;
+  height: 300px;
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+.movies-list::-webkit-scrollbar {
+  display: none; 
+}
+  
+  .movie-item {
+  
+    margin: 0 10px;
+  }
+  
+  .movie-image {
+    width: 170px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 3px;
+  }
+  
+
+  
+  .scroll-button.left {
+    left: 10px;
+  }
+  
+  .scroll-button.right {
+    right: 10px;
+  }
+  
+  .no-image {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    color: #333;
+  }
+  
