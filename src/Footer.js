@@ -12,8 +12,8 @@ const Footer = () => {
   return (
     <Box 
       sx={{ 
-        width: '100%', 
-        height: '300px',
+        width: '100%',
+        minHeight:'300px',
         backgroundColor: 'black', 
         color: 'white', 
         padding: '20px 0', 

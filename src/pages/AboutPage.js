@@ -7,15 +7,15 @@ import Footer from '../Footer';
 const AboutPage = () => {
   return (
     <div className='h-screen w-full'>
-      <div className='h-[80%] min-h-[700px] md:min-h-[650px] w-[100%] lg:h-[55%] lg:min-h-[470px] bg-customColor pt-14 pl-[12%] pr-[12%] pb-20'>
+      <div className='h-[120%] min-h-[700px] md:h-[650px] w-[100%] lg:h-[55%] lg:min-h-[470px] sm:h-[100%] bg-customColor pt-10 pl-[12%] pr-[12%] pb-20'>
         <Typography variant="h2" gutterBottom>
           <TypewriterText text="About Us" />
         </Typography>
         <Typography variant="body1" className='flex flex-col lg:flex-row'>
-          <div className='flex-1'>
-            <img src='/1.jpg' className='w-[350px] h-[269px] flex-1 mb-12 mx-auto lg:mx-0' />
+          <div className='flex-1 min-h-[340px]'>
+            <img src='/1.jpg' className='w-[330px] h-[269px] flex-1 mb-12 mx-auto lg:mx-0' />
           </div>
-          <div className='flex-1'>
+          <div className='flex-1 '>
             <h1 className='text-3xl mb-5 opacity-65'>
               <TypewriterText text="Our Mission" />
             </h1>
@@ -24,9 +24,9 @@ const AboutPage = () => {
         </Typography>
       </div>
 
-      <div className='h-[80%] min-h-[700px] md:min-h-[600px] w-[100%] lg:h-[45%] lg:min-h-[470px] bg-customColorr pt-14 pl-[12%] pr-[12%] pb-20'>
+      <div className='h-[109%] min-h-[700px] md:min-h-[600px] w-[100%] lg:h-[45%] lg:min-h-[470px]  sm:h-[100%] bg-customColorr pt-14 pl-[12%] pr-[12%] pb-20'>
         <Typography variant="body1" className='flex flex-col lg:flex-row'>
-          <div className='flex-1'>
+          <div className='flex-1 min-h-[350px]'>
             <h1 className='text-3xl mb-5 opacity-65'>
               <TypewriterText text="The Journey" />
             </h1>
@@ -38,9 +38,9 @@ const AboutPage = () => {
         </Typography>
       </div>
 
-      <div className='h-[80%] min-h-[700px] md:min-h-[600px] w-[100%] lg:h-[45%] lg:min-h-[470px] bg-customColor pt-14 pl-[12%] pr-[12%] pb-20'>
+      <div className='h-[109%] min-h-[700px] md:min-h-[600px] w-[100%] lg:h-[45%] lg:min-h-[470px] sm:h-[100%] bg-customColor pt-14 pl-[12%] pr-[12%] pb-20'>
         <Typography variant="body1" className='flex flex-col lg:flex-row'>
-          <div className='flex-1'>
+          <div className='flex-1 min-h-[330px]'>
             <img src='/3.jpg' className='w-[350px] h-[250px] flex-1 mb-12 mx-auto lg:mx-0' />
           </div>
           <div className='flex-1'>
@@ -52,16 +52,16 @@ const AboutPage = () => {
         </Typography>
       </div>
 
-      <div className='h-[80%] min-h-[700px] md:min-h-[600px] w-[100%] lg:h-[45%] lg:min-h-[470px] bg-customColorr pt-14 pl-[12%] pr-[12%] pb-20'>
+      <div className='h-[112%] min-h-[700px] md:min-h-[600px] w-[100%] lg:h-[45%] lg:min-h-[470px] sm:h-[100%] bg-customColorr pt-14 pl-[12%] pr-[12%] pb-20'>
         <Typography variant="body1" className='flex flex-col lg:flex-row'>
-          <div className='flex-1'>
+          <div className='flex-1 min-h-[350px]'>
             <h1 className='text-3xl mb-5 opacity-65'>
               <TypewriterText text="Community Engagement" />
             </h1>
             <TypewriterText text="At MovieDB, we believe that movies are best enjoyed when shared. That's why we've built a vibrant community where movie lovers can connect, share their thoughts, and discuss their favorite films. Our forums, comment sections, and social media channels provide a space for meaningful conversations about movies. We encourage our users to contribute to the database by submitting reviews, trivia, and even corrections, helping us to create a more accurate and inclusive platform." />
           </div>
           <div className='flex-1'>
-            <img src='/4.jpg' className='w-[350px] h-[250px] flex-1 mt-12 mx-auto ' />
+            <img src='/4.jpg' className='w-[350px] h-[250px] flex-1 mt-12 mx-auto'/>
           </div>
         </Typography>
       </div>
