@@ -15,7 +15,7 @@ const Searchs = () => (
   <Space direction="vertical" className='w-full'>
     
     <Search
-      placeholder="input search text"
+      placeholder="Input search text"
       enterButton="Search"
       size="large"
       suffix={suffix}
